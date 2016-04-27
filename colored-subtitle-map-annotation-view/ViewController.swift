@@ -7,12 +7,38 @@
 //
 
 import UIKit
+import MapKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
 
+    @IBOutlet weak var mapView: MKMapView!
+    
+    let locationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // set up location manager
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization() // Must add NSLocationWhenInUseUsageDescription to info.plist
+        locationManager.startUpdatingLocation()
+        
+        // set up map view
+        mapView.delegate = self
+        
+        if let locatonCooridinate = locationManager.location?.coordinate {
+            dispatch_async(dispatch_get_main_queue(), {
+                self.mapView.setCenterCoordinate(locatonCooridinate, animated: true)
+            })
+        }
+    }
+    
+    func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
+        
+    }
+    
+    func mapView(mapView: MKMapView, viewForAnnotation annotation: MKAnnotation) -> MKAnnotationView? {
+        <#code#>
     }
 
     override func didReceiveMemoryWarning() {
