@@ -1,5 +1,5 @@
 //
-//  CalloutView.swift
+//  CustomCalloutView.swift
 //  colored-subtitle-map-annotation-view
 //
 //  Created by Eric Mentele on 4/27/16.
@@ -9,8 +9,7 @@
 import Foundation
 import UIKit
 
-class myCalloutView: UIView {
-    @IBOutlet weak var title: UILabel!
-    @IBOutlet weak var subtitle: UILabel!
-    
+class CustomCalloutView: UIView {
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subtitleLabel: UILabel!
 }

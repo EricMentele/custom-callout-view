@@ -17,6 +17,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // NOTE: I do not think a viewDidLoad should look like this. Code under comments may be refactored into functions; however, this works for turorial purposes.
         
         // set up location manager
         locationManager.delegate = self
@@ -31,6 +32,17 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
                 self.mapView.setCenterCoordinate(locatonCooridinate, animated: true)
             })
         }
+        
+        // set up colored subtitle string.
+        let mySubtitle = NSMutableAttributedString(string: "Gravel, Asphalt, Soil")
+        mySubtitle.addAttributes([NSForegroundColorAttributeName : UIColor.whiteColor()], range: NSRange(location: 0, length: 6))
+        mySubtitle.addAttributes([NSForegroundColorAttributeName : UIColor.blackColor()], range: NSRange(location: 8, length: 7))
+        mySubtitle.addAttributes([NSForegroundColorAttributeName : UIColor.greenColor()], range: NSRange(location: 17, length: 4))
+        
+        // add pin to map
+        let pin = CustomAnnotation(titleLabel: "Im Here!", subtitleLabel: mySubtitle)
+        pin.coordinate = locationManager.location!.coordinate
+        mapView.addAnnotation(pin)
     }
     
     func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {

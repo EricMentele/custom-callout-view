@@ -15,7 +15,8 @@
 		8CD1B6751CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B6741CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewTests.swift */; };
 		8CD1B6801CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B67F1CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewUITests.swift */; };
 		8CD1B68E1CD1504D00DF8D5A /* AnnotationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1B68D1CD1504D00DF8D5A /* AnnotationView.xib */; };
-		8CD1B6901CD1762B00DF8D5A /* CalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B68F1CD1762B00DF8D5A /* CalloutView.swift */; };
+		8CD1B6941CD1801B00DF8D5A /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B6931CD1801B00DF8D5A /* CustomCalloutView.swift */; };
+		8CD1B6961CD181CF00DF8D5A /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B6951CD181CF00DF8D5A /* CustomAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,8 @@
 		8CD1B67F1CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colored_subtitle_map_annotation_viewUITests.swift; sourceTree = "<group>"; };
 		8CD1B6811CD147BA00DF8D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CD1B68D1CD1504D00DF8D5A /* AnnotationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnnotationView.xib; sourceTree = "<group>"; };
-		8CD1B68F1CD1762B00DF8D5A /* CalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalloutView.swift; sourceTree = "<group>"; };
+		8CD1B6931CD1801B00DF8D5A /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
+		8CD1B6951CD181CF00DF8D5A /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +110,8 @@
 				8CD1B6681CD147B900DF8D5A /* LaunchScreen.storyboard */,
 				8CD1B66B1CD147B900DF8D5A /* Info.plist */,
 				8CD1B68D1CD1504D00DF8D5A /* AnnotationView.xib */,
-				8CD1B68F1CD1762B00DF8D5A /* CalloutView.swift */,
+				8CD1B6931CD1801B00DF8D5A /* CustomCalloutView.swift */,
+				8CD1B6951CD181CF00DF8D5A /* CustomAnnotation.swift */,
 			);
 			path = "colored-subtitle-map-annotation-view";
 			sourceTree = "<group>";
@@ -263,9 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CD1B6941CD1801B00DF8D5A /* CustomCalloutView.swift in Sources */,
 				8CD1B6621CD147B900DF8D5A /* ViewController.swift in Sources */,
 				8CD1B6601CD147B900DF8D5A /* AppDelegate.swift in Sources */,
-				8CD1B6901CD1762B00DF8D5A /* CalloutView.swift in Sources */,
+				8CD1B6961CD181CF00DF8D5A /* CustomAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

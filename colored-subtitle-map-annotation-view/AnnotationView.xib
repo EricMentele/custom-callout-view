@@ -7,7 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="myCalloutView" customModule="colored_subtitle_map_annotation_view" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomCalloutView" customModule="colored_subtitle_map_annotation_view" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="400" height="100"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -34,9 +34,11 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="subtitle" destination="k5L-gt-mFA" id="PvT-G3-r2G"/>
+                <outlet property="subtitleLabel" destination="k5L-gt-mFA" id="T6t-ic-WSR"/>
                 <outlet property="title" destination="niC-ID-aJe" id="N9o-6M-A75"/>
+                <outlet property="titleLabel" destination="niC-ID-aJe" id="eZ8-32-zpu"/>
             </connections>
-            <point key="canvasLocation" x="289" y="163"/>
+            <point key="canvasLocation" x="275" y="170"/>
         </view>
     </objects>
 </document>
