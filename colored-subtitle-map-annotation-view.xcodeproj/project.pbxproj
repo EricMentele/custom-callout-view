@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CD1B6601CD147B900DF8D5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B65F1CD147B900DF8D5A /* AppDelegate.swift */; };
+		8CD1B6621CD147B900DF8D5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B6611CD147B900DF8D5A /* ViewController.swift */; };
+		8CD1B6651CD147B900DF8D5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1B6631CD147B900DF8D5A /* Main.storyboard */; };
+		8CD1B6671CD147B900DF8D5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1B6661CD147B900DF8D5A /* Assets.xcassets */; };
+		8CD1B66A1CD147B900DF8D5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CD1B6681CD147B900DF8D5A /* LaunchScreen.storyboard */; };
+		8CD1B6751CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B6741CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewTests.swift */; };
+		8CD1B6801CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1B67F1CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD1B6711CD147BA00DF8D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD1B6541CD147B900DF8D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD1B65B1CD147B900DF8D5A;
+			remoteInfo = "colored-subtitle-map-annotation-view";
+		};
+		8CD1B67C1CD147BA00DF8D5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD1B6541CD147B900DF8D5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD1B65B1CD147B900DF8D5A;
+			remoteInfo = "colored-subtitle-map-annotation-view";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CD1B65C1CD147B900DF8D5A /* colored-subtitle-map-annotation-view.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "colored-subtitle-map-annotation-view.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD1B65F1CD147B900DF8D5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CD1B6611CD147B900DF8D5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CD1B6641CD147B900DF8D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CD1B6661CD147B900DF8D5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CD1B6691CD147B900DF8D5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CD1B66B1CD147B900DF8D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD1B6701CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "colored-subtitle-map-annotation-viewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD1B6741CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colored_subtitle_map_annotation_viewTests.swift; sourceTree = "<group>"; };
+		8CD1B6761CD147BA00DF8D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CD1B67B1CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "colored-subtitle-map-annotation-viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CD1B67F1CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colored_subtitle_map_annotation_viewUITests.swift; sourceTree = "<group>"; };
+		8CD1B6811CD147BA00DF8D5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CD1B6591CD147B900DF8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD1B66D1CD147BA00DF8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD1B6781CD147BA00DF8D5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CD1B6531CD147B900DF8D5A = {
+			isa = PBXGroup;
+			children = (
+				8CD1B65E1CD147B900DF8D5A /* colored-subtitle-map-annotation-view */,
+				8CD1B6731CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewTests */,
+				8CD1B67E1CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewUITests */,
+				8CD1B65D1CD147B900DF8D5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CD1B65D1CD147B900DF8D5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD1B65C1CD147B900DF8D5A /* colored-subtitle-map-annotation-view.app */,
+				8CD1B6701CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewTests.xctest */,
+				8CD1B67B1CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CD1B65E1CD147B900DF8D5A /* colored-subtitle-map-annotation-view */ = {
+			isa = PBXGroup;
+			children = (
+				8CD1B65F1CD147B900DF8D5A /* AppDelegate.swift */,
+				8CD1B6611CD147B900DF8D5A /* ViewController.swift */,
+				8CD1B6631CD147B900DF8D5A /* Main.storyboard */,
+				8CD1B6661CD147B900DF8D5A /* Assets.xcassets */,
+				8CD1B6681CD147B900DF8D5A /* LaunchScreen.storyboard */,
+				8CD1B66B1CD147B900DF8D5A /* Info.plist */,
+			);
+			path = "colored-subtitle-map-annotation-view";
+			sourceTree = "<group>";
+		};
+		8CD1B6731CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD1B6741CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewTests.swift */,
+				8CD1B6761CD147BA00DF8D5A /* Info.plist */,
+			);
+			path = "colored-subtitle-map-annotation-viewTests";
+			sourceTree = "<group>";
+		};
+		8CD1B67E1CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8CD1B67F1CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewUITests.swift */,
+				8CD1B6811CD147BA00DF8D5A /* Info.plist */,
+			);
+			path = "colored-subtitle-map-annotation-viewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CD1B65B1CD147B900DF8D5A /* colored-subtitle-map-annotation-view */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD1B6841CD147BA00DF8D5A /* Build configuration list for PBXNativeTarget "colored-subtitle-map-annotation-view" */;
+			buildPhases = (
+				8CD1B6581CD147B900DF8D5A /* Sources */,
+				8CD1B6591CD147B900DF8D5A /* Frameworks */,
+				8CD1B65A1CD147B900DF8D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "colored-subtitle-map-annotation-view";
+			productName = "colored-subtitle-map-annotation-view";
+			productReference = 8CD1B65C1CD147B900DF8D5A /* colored-subtitle-map-annotation-view.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CD1B66F1CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD1B6871CD147BA00DF8D5A /* Build configuration list for PBXNativeTarget "colored-subtitle-map-annotation-viewTests" */;
+			buildPhases = (
+				8CD1B66C1CD147BA00DF8D5A /* Sources */,
+				8CD1B66D1CD147BA00DF8D5A /* Frameworks */,
+				8CD1B66E1CD147BA00DF8D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD1B6721CD147BA00DF8D5A /* PBXTargetDependency */,
+			);
+			name = "colored-subtitle-map-annotation-viewTests";
+			productName = "colored-subtitle-map-annotation-viewTests";
+			productReference = 8CD1B6701CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8CD1B67A1CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD1B68A1CD147BA00DF8D5A /* Build configuration list for PBXNativeTarget "colored-subtitle-map-annotation-viewUITests" */;
+			buildPhases = (
+				8CD1B6771CD147BA00DF8D5A /* Sources */,
+				8CD1B6781CD147BA00DF8D5A /* Frameworks */,
+				8CD1B6791CD147BA00DF8D5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD1B67D1CD147BA00DF8D5A /* PBXTargetDependency */,
+			);
+			name = "colored-subtitle-map-annotation-viewUITests";
+			productName = "colored-subtitle-map-annotation-viewUITests";
+			productReference = 8CD1B67B1CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CD1B6541CD147B900DF8D5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eric Mentele";
+				TargetAttributes = {
+					8CD1B65B1CD147B900DF8D5A = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					8CD1B66F1CD147BA00DF8D5A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8CD1B65B1CD147B900DF8D5A;
+					};
+					8CD1B67A1CD147BA00DF8D5A = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8CD1B65B1CD147B900DF8D5A;
+					};
+				};
+			};
+			buildConfigurationList = 8CD1B6571CD147B900DF8D5A /* Build configuration list for PBXProject "colored-subtitle-map-annotation-view" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CD1B6531CD147B900DF8D5A;
+			productRefGroup = 8CD1B65D1CD147B900DF8D5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD1B65B1CD147B900DF8D5A /* colored-subtitle-map-annotation-view */,
+				8CD1B66F1CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewTests */,
+				8CD1B67A1CD147BA00DF8D5A /* colored-subtitle-map-annotation-viewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CD1B65A1CD147B900DF8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD1B66A1CD147B900DF8D5A /* LaunchScreen.storyboard in Resources */,
+				8CD1B6671CD147B900DF8D5A /* Assets.xcassets in Resources */,
+				8CD1B6651CD147B900DF8D5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD1B66E1CD147BA00DF8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD1B6791CD147BA00DF8D5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CD1B6581CD147B900DF8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD1B6621CD147B900DF8D5A /* ViewController.swift in Sources */,
+				8CD1B6601CD147B900DF8D5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD1B66C1CD147BA00DF8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD1B6751CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CD1B6771CD147BA00DF8D5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD1B6801CD147BA00DF8D5A /* colored_subtitle_map_annotation_viewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CD1B6721CD147BA00DF8D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD1B65B1CD147B900DF8D5A /* colored-subtitle-map-annotation-view */;
+			targetProxy = 8CD1B6711CD147BA00DF8D5A /* PBXContainerItemProxy */;
+		};
+		8CD1B67D1CD147BA00DF8D5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CD1B65B1CD147B900DF8D5A /* colored-subtitle-map-annotation-view */;
+			targetProxy = 8CD1B67C1CD147BA00DF8D5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CD1B6631CD147B900DF8D5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD1B6641CD147B900DF8D5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CD1B6681CD147B900DF8D5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CD1B6691CD147B900DF8D5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CD1B6821CD147BA00DF8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CD1B6831CD147BA00DF8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CD1B6851CD147BA00DF8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "colored-subtitle-map-annotation-view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmentele.colored-subtitle-map-annotation-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CD1B6861CD147BA00DF8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "colored-subtitle-map-annotation-view/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmentele.colored-subtitle-map-annotation-view";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CD1B6881CD147BA00DF8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "colored-subtitle-map-annotation-viewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmentele.colored-subtitle-map-annotation-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colored-subtitle-map-annotation-view.app/colored-subtitle-map-annotation-view";
+			};
+			name = Debug;
+		};
+		8CD1B6891CD147BA00DF8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "colored-subtitle-map-annotation-viewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmentele.colored-subtitle-map-annotation-viewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/colored-subtitle-map-annotation-view.app/colored-subtitle-map-annotation-view";
+			};
+			name = Release;
+		};
+		8CD1B68B1CD147BA00DF8D5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "colored-subtitle-map-annotation-viewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmentele.colored-subtitle-map-annotation-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "colored-subtitle-map-annotation-view";
+			};
+			name = Debug;
+		};
+		8CD1B68C1CD147BA00DF8D5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "colored-subtitle-map-annotation-viewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericmentele.colored-subtitle-map-annotation-viewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "colored-subtitle-map-annotation-view";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CD1B6571CD147B900DF8D5A /* Build configuration list for PBXProject "colored-subtitle-map-annotation-view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD1B6821CD147BA00DF8D5A /* Debug */,
+				8CD1B6831CD147BA00DF8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD1B6841CD147BA00DF8D5A /* Build configuration list for PBXNativeTarget "colored-subtitle-map-annotation-view" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD1B6851CD147BA00DF8D5A /* Debug */,
+				8CD1B6861CD147BA00DF8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CD1B6871CD147BA00DF8D5A /* Build configuration list for PBXNativeTarget "colored-subtitle-map-annotation-viewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD1B6881CD147BA00DF8D5A /* Debug */,
+				8CD1B6891CD147BA00DF8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CD1B68A1CD147BA00DF8D5A /* Build configuration list for PBXNativeTarget "colored-subtitle-map-annotation-viewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CD1B68B1CD147BA00DF8D5A /* Debug */,
+				8CD1B68C1CD147BA00DF8D5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CD1B6541CD147B900DF8D5A /* Project object */;
+}
