@@ -8,8 +8,9 @@
 
 import Foundation
 import UIKit
+import MapKit
 
-class CustomCalloutView: UIView {
+class CustomCalloutView: MKAnnotationView {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subtitleLabel: UILabel!
 }
