@@ -43,8 +43,11 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         // add pin to map
         let pin = CustomAnnotation(titleLabel: "Im Here!", subtitleLabel: mySubtitle)
-        pin.coordinate = locationManager.location!.coordinate
-        mapView.addAnnotation(pin)
+        
+        if let location = locationManager.location {
+            pin.coordinate = location.coordinate
+            mapView.addAnnotation(pin)
+        }
     }
     
     func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
