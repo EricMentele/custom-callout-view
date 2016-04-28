@@ -11,7 +11,7 @@ import UIKit
 import MapKit
 
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
-
+    
     @IBOutlet weak var mapView: MKMapView!
     
     // This is for getting the user location for an annotation pin position. Must add NSLocationWhenInUseUsageDescription to info.plist
@@ -29,12 +29,6 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         // set up map view
         mapView.delegate = self
         
-        if let locatonCooridinate = locationManager.location?.coordinate {
-            dispatch_async(dispatch_get_main_queue(), {
-                self.mapView.setCenterCoordinate(locatonCooridinate, animated: true)
-            })
-        }
-        
         // set up colored subtitle string.
         let mySubtitle = NSMutableAttributedString(string: "Gravel, Asphalt, Soil")
         mySubtitle.addAttributes([NSForegroundColorAttributeName : UIColor.redColor()], range: NSRange(location: 0, length: 6))
@@ -47,7 +41,15 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         if let location = locationManager.location {
             pin.coordinate = location.coordinate
             mapView.addAnnotation(pin)
+        } else {
+            pin.coordinate = CLLocationCoordinate2D(latitude: -80.346553, longitude: 68.073319)
+            mapView.addAnnotation(pin)
         }
+        
+        // Move map to pin.
+        dispatch_async(dispatch_get_main_queue(), {
+            self.mapView.setCenterCoordinate(pin.coordinate, animated: true)
+        })
     }
     
     func mapView(mapView: MKMapView, didSelectAnnotationView view: MKAnnotationView) {
@@ -70,7 +72,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         let newRegion = MKCoordinateRegion(center:customAnnotation.coordinate, span: MKCoordinateSpanMake(spanX, spanY))
         
-        dispatch_async(dispatch_get_main_queue()) { 
+        dispatch_async(dispatch_get_main_queue()) {
             self.mapView.setRegion(newRegion, animated: true)
             
         }
